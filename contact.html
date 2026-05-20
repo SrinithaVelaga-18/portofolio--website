@@ -1,62 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Contact me through my portfolio website.">
-  <title>Contact | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<meta name="description" content="Contact me through my portfolio website">
-<meta name="keywords" content="portfolio, contact, web developer">
-<meta name="author" content="Your Name">
-<meta name="robots" content="index, follow">
-
-<meta property="og:title" content="Contact | My Portfolio">
-<meta property="og:description" content="Contact me through my portfolio website">
-<meta property="og:type" content="website">
-
-<title>Contact | Portfolio</title>
-<link rel="stylesheet" href="style.css">
 <body>
-<a href="#main-content">Skip to main content</a>
-<header role="banner">
-  <h1>My Portfolio</h1>
-  <nav aria-label="Main navigation">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="projects.html">Projects</a></li>
-      <li><a href="contact.html" aria-current="page">Contact</a></li>
-    </ul>
-  </nav>
-</header>
-<main id="main-content">
-  <section aria-labelledby="contact-heading">
-    <h2 id="contact-heading">Contact Me</h2>
-    <form aria-label="Contact form">
-      <fieldset>
-        <legend>Send a Message</legend>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required>
-        <label for="message">Message</label>
-        <textarea id="message" name="message" required></textarea>
-        <button type="submit">Send</button>
-      </fieldset>
-    </form>
-  </section>
-</main>
-<footer role="contentinfo"><p>&copy; 2026 Your Name</p></footer>
+
+    <!-- Header -->
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-form">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+
+                <input type="email" placeholder="Your Email" required>
+
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Your Name</p>
+    </footer>
+
 </body>
 </html>
-<main id="main-content">
-      <h2>Welcome to My Portfolio</h2>
-      <p>This is my portfolio website.</p>
-  </main>
-
-  <footer>
-      <p>© 2026 My Portfolio</p>
-  </footer>
-
-</body>
